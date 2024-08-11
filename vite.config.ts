@@ -2,12 +2,16 @@ import path from "path"
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
+// Jika Anda perlu menggunakan plugin khusus Vercel, pastikan plugin tersebut diimpor dengan benar
+// import vercel from 'vite-plugin-vercel' 
+
 export default defineConfig({
-  plugins: [react()],
-  plugins: [vercel()],
+  plugins: [
+    react(),
+    // vercel(), // Uncomment this line if you have a valid `vercel()` plugin
+  ],
   server: {
-    port: process.env.PORT as unknown as number,
+    port: process.env.PORT ? parseInt(process.env.PORT) : 3000,
   },
   build: {
     outDir: 'dist',
