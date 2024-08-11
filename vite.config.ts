@@ -9,6 +9,9 @@ export default defineConfig({
   server: {
     port: process.env.PORT as unknown as number,
   },
+  build: {
+    outDir: 'dist',
+  },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
