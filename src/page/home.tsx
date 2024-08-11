@@ -188,7 +188,7 @@ const Home = () => {
         </div>
         <div className="flex justify-center items-center">
           <div className="drop-shadow-lg bg-white h-[114px] w-full relative inset-x-4 px-5 py-4">
-            <h1 className="text-md font-medium">Tabunga saldo ku</h1>
+            <h1 className="text-md font-medium">Tabungan Mikro IDR</h1>
             <h2 className="text-md">03497324732764732</h2>
             {isOpen && (
               <h2 className="text-md font-semibold">
