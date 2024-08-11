@@ -1,7 +1,7 @@
 // import './App.css'
 
 
-import React, {Suspense} from "react";
+import  {Suspense} from "react";
 import { lazy } from 'react';
 import {
   createBrowserRouter,

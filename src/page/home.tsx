@@ -35,7 +35,7 @@ const Home = () => {
   });
   const [isOpen, setIOpen] = React.useState(true);
 
-  const [name, setName] = React.useState(() => {
+  const [name] = React.useState(() => {
     return localStorage.getItem("namelogin") || "";
   });
 
