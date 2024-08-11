@@ -5,7 +5,7 @@ import CsIcon from "@/assets/CsIcon";
 import QrisIcon from "@/assets/QrisIcon";
 import QuickPickIcon from "@/assets/QuickPickIcon";
 import SetorTarikIcon from "@/assets/SetorTarikIcon";
-import { Button } from "@/components/ui/button";
+// import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import ModalLogin from "./modalLogin";
 
