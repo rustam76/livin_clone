@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import ojk from "@/assets/ojk.svg"
 import backgraundLogo from "@/assets/backgraund-logo.svg";
 const LazzyLoad = () => {
